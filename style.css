@@ -1,0 +1,20 @@
+header{
+    background-color: #1f2937;
+    color: white;
+}
+
+.a{
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+button{
+    background-color: blue;
+}
+
+.logo{
+    size: 24px;
+    font;
+}
