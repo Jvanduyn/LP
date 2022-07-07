@@ -1,17 +1,53 @@
-.container-a{
+
+.header{
+    display: flex;
     background-color: #1f2937;
     color: white;
+    font-size: 18px;
+    justify-content: space-between;
 }
 
-.container-b{
+.nav{
+    color: white;
+    text-decoration: none;
+    box-shadow: none;
+    list-style: none;
+    background-color: green;
+    margin-right: 75px;
 
+}
+
+.logo{
+    margin-top: 20px;
+    margin-left: 75px;
+}
+
+.Link-1{
+    color: white;
+    text-decoration: none;
+    padding: 1em 1.5em;
+    box-shadow: none;
+    list-style: none;
+
+}
+.main{
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+}
+
+.title{
+    font-size: 48px;
 }
 
 
 .third-section{
+    display: flex;
     background-color: #E5E7EB;
+    justify-content: center;
+    flex-wrap: wrap;
+    
 }
-
 
 
 
