@@ -8,7 +8,9 @@
 }
 
 
-
+.third-section{
+    background-color: #E5E7EB;
+}
 
 
 
@@ -28,4 +30,13 @@
     display: flex;
     justify-content: center;
 
+}
+
+.footer{
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: lighter;
 }
