@@ -3,17 +3,20 @@
     display: flex;
     background-color: #1f2937;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     justify-content: space-between;
 }
 
 .nav{
-    color: white;
+    color: #E5E7EB;
     text-decoration: none;
-    box-shadow: none;
     list-style: none;
-    background-color: green;
+    display: inline-flex;
     margin-right: 75px;
+    font-size: 18px;
+    gap: 12px;
+    font-size: 12px;
+    margin-top: 25px;
 
 }
 
@@ -23,7 +26,7 @@
 }
 
 .Link-1{
-    color: white;
+    color: inherit;
     text-decoration: none;
     padding: 1em 1.5em;
     box-shadow: none;
@@ -34,38 +37,70 @@
     background-color: #1f2937;
     color: white;
     display: flex;
+    display: inline-block;
 }
 
 .title{
-    font-size: 48px;
+    font-size: 30px;
+    margin-left: 75px;
+    margin-right: 15px;
 }
 
+.p{
+    margin-left: 75px;
+    margin-right: 75px;
+}
 
 .third-section{
     display: flex;
     background-color: #E5E7EB;
     justify-content: center;
     flex-wrap: wrap;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     
 }
 
-
+.sig{
+    justify-items: end;
+}
 
 .container-b{
     display: flex;
     justify-content: center;
 }
 
+.bubble{
+    display: flex;
+    margin: 75px;
+    padding: 45px;
+    background-color: #3882F6;
+    border-radius: 25px;
+}
+
 .button{
     display: flex;
     background-color: #3882F6;
+    margin-left: 75px;
+    border-radius: 25px;
+    padding: 5px;
+    width: 100px;
+    justify-content: center;
+    height: ;
 }
 
 
 .photos{
-    display: flex;
+    display: inline-flex;
     justify-content: center;
-
+    text-decoration: none;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 35px;
+    margin: auto;
+    margin-left: 50px;
 }
 
 .footer{
@@ -75,4 +110,8 @@
     justify-content: center;
     font-size: 18px;
     font-weight: lighter;
+}
+
+body{
+    margin: auto;
 }
